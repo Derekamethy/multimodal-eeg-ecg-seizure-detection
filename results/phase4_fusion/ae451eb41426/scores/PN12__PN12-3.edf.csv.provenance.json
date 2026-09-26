@@ -1,0 +1,29 @@
+{
+  "metadata_identity": "91b7c18e669fd92ef785c9692b15635c766db42d584bb1a24300dd34d64160b3",
+  "kind": "phase4_PN12__PN12-3.edf",
+  "config": {},
+  "dependencies": {
+    "run_phase4_fusion.py": "7c8011783ae4b68c464996e6fab14ad7d8cd94c639ea2c8771fab053df794f71",
+    "verify_phase4_fusion.py": "1d560a0f9f687fe3a72ee6f64bec1755a38af104331a7836bfc0c9af5ce803b8",
+    "src/multimodal_seizure/fusion.py": "719a01c553f1cbf29c6608db2e1df3353b9b22e07518cf1f76a67730e96d0bbf",
+    "src/multimodal_seizure/fusion_analysis.py": "a181bdab53fdb573478ac4493986f802588be1adce9a2f772837a7e137a1a6dd",
+    "src/multimodal_seizure/baseline.py": "12e5689da54b2edd0ab623faf96c0d6eb47ceb0ce82f0087f6629cde3219c9af",
+    "src/multimodal_seizure/ecg_baseline.py": "112592e7c177175a2003f589629da88e0758c7fe8ab510d2744ea64e9cdc4da0",
+    "src/multimodal_seizure/cardiac.py": "95bb7b4c223b11de18067b59d52058f408d9e40ea8548ad94cb4b71d04c82f82",
+    "src/multimodal_seizure/alarms.py": "457152c594bf686946456d05dd84c9bd79cfda0549ce955d01a7ebf1679a8e3b",
+    "src/multimodal_seizure/metrics.py": "9e688c6a64f89a09abf19c797b241b94e4d0088ef76401ad1495223aa1ed543b",
+    "src/multimodal_seizure/windows.py": "0b3525e76b3d587bacddf03716ab507f4ec5591c6797c66ec88e83ccc359a837",
+    "src/multimodal_seizure/data.py": "af4a688d80db84e873cec25126161f4837fe06dd57d4990c4f345ef71b3bcfba",
+    "src/multimodal_seizure/provenance.py": "beca839cc87465002696e6afcf68eafb8fc346c7e6957f3b1e9c24a1e56f7809",
+    "results/phase4_fusion/ae451eb41426/config.json": "a009600ba9508741e824b0154f1e7ae433746fb00616c86b5746aecf8651cbbc",
+    "results/phase2_eeg/3ba65f49586b/features/PN12__PN12-1.2.edf.csv": "9cd07c1edec18ff78c38d1d9ace8400e99282abad99d59ca052ab0bd0f12f880",
+    "results/phase3_ecg/6813d261b922/features/PN12__PN12-1.2.edf.csv": "cac441b6479b72767ff1d47704c3607167e95f829b653fc282ce9d9a93a99794",
+    "results/phase2_eeg/3ba65f49586b/features/PN12__PN12-3.edf.csv": "525200460dc0e4845e70a9c0aa28ba7cd6e325ecf04e657c1b712b2c98d920bb",
+    "results/phase3_ecg/6813d261b922/features/PN12__PN12-3.edf.csv": "798b687b2f74d7c7700b3773a7326f1e05c7ec74ee53f19eb8c4ecd9ee1c36b0",
+    "results/phase2_eeg/3ba65f49586b/features/PN12__PN12-4.edf.csv": "aff7e494b7269cb7049b783c5f35b53f8023b421469c4df8b4c0b1c6d0e2c621",
+    "results/phase3_ecg/6813d261b922/features/PN12__PN12-4.edf.csv": "c80b83791b10b6af44cbd4bbcf3da42d682268c045d3fcea2d9675254f262f1a",
+    "results/phase4_fusion/ae451eb41426/inner/PN12__PN12-3.edf.csv": "108bf5eede66811987cd2616d087c628e27a36c54e34c0ccfbc7cbeaced09494"
+  },
+  "cache_identity": "a98a600f0109aab69f14dedd93877514522ea3b64a6b7a799752d4e360c66254",
+  "artifact_sha256": "7609473007160114866e598994ae1d600bc2f44973e0da9e5f8230f7f96fc51a"
+}

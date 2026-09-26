@@ -1,0 +1,24 @@
+patient,canonical_file_name,edf_duration_s,edf_start_date,edf_start_time,primary_eligible,event_count,eligible_event_count,exclusion_reason,mapping_status,n_eeg,n_ecg,edf_header_sha256,edf_source_path
+PN00,PN00-1.edf,2625.0,01.01.16,19.39.33,True,1,1,,validated,29,2,e43e5ecc018ce2afb48de873832952c67eaa185158b2d950ec9d1b1a4ee243f4,data/raw/siena-scalp-eeg-1.0.0/PN00/PN00-1.edf
+PN00,PN00-2.edf,2302.0,01.01.16,02.18.17,True,1,1,,validated,29,2,5fd5dacc9f9cbb4ce2ec809afd1034c91895cd68a72f84a207eaa022e3b50bc3,data/raw/siena-scalp-eeg-1.0.0/PN00/PN00-2.edf
+PN00,PN00-3.edf,2509.0,01.01.16,18.15.44,False,1,0,Unverified out-of-EDF source end; entire parent quarantined,validated,29,2,dd5729f17b6643b0ed4e510fef61ad8ef21e9f23dc6b54e1bf674090aa6d60cf,data/raw/siena-scalp-eeg-1.0.0/PN00/PN00-3.edf
+PN00,PN00-4.edf,2102.0,01.01.16,20.51.43,True,1,1,,validated,29,2,8da4d4d9b0d69be4bf5027f8c8efb80fb1ab457249ba9de64ac1e9a97aeb9e69,data/raw/siena-scalp-eeg-1.0.0/PN00/PN00-4.edf
+PN00,PN00-5.edf,2143.0,01.01.16,22.22.04,True,1,1,,validated,29,2,e0c223361111d80452f5609aeac17090422e329560de9717b9587befdbd14d0b,data/raw/siena-scalp-eeg-1.0.0/PN00/PN00-5.edf
+PN06,PN06-1.edf,9615.0,01.01.16,04.21.22,True,1,1,,validated,29,2,615219853db8cb9df21246a01ecc945b825e9394bb5e03d85a9d93f2404152c1,data/raw/siena-scalp-eeg-1.0.0/PN06/PN06-1.edf
+PN06,PN06-2.edf,12620.0,01.01.16,21.11.29,True,1,1,,validated,29,2,12fb49095f00adf94023fd8b3b315703806b7f7c35a78fe364bdfcf192581a41,data/raw/siena-scalp-eeg-1.0.0/PN06/PN06-2.edf
+PN06,PN06-3.edf,8180.0,01.01.16,06.25.51,True,1,1,,validated,29,2,13e11a26dc147fa0ca85a8c088f71f611e0948274bf4a46bced105cd77cfa49e,data/raw/siena-scalp-eeg-1.0.0/PN06/PN06-3.edf
+PN06,PN06-4.edf,7025.0,01.01.16,11.16.09,True,1,1,,validated,29,2,24a5f1c42cb077e97d5b8b791c8ae795fe0658abc9da0927d2e6c7d884cd8028,data/raw/siena-scalp-eeg-1.0.0/PN06/PN06-4.edf
+PN06,PN06-5.edf,6022.0,01.01.16,13.24.41,True,1,1,,validated,29,2,6c92bc59b16faf841bc4b5400d182166648bbeb8d63b2e18794e949ea77ebdf6,data/raw/siena-scalp-eeg-1.0.0/PN06/PN06-5.edf
+PN10,PN10-1.edf,9982.0,01.01.17,05.40.05,True,1,1,,validated,19,2,113d0204953956e9f5e372ad40c494583a01d938e13ee506c2c86bec636ac903,data/raw/siena-scalp-eeg-1.0.0/PN10/PN10-1.edf
+PN10,PN10-10.edf,8565.0,01.01.17,08.45.22,True,1,1,,validated,19,2,4e13392347427c40da58d794f991b38a93c8b37129be0b5171b114f6a34d0893,data/raw/siena-scalp-eeg-1.0.0/PN10/PN10-10.edf
+PN10,PN10-2.edf,8554.0,01.01.17,09.30.15,True,1,1,,validated,19,2,9dd04b2395891cc3e0634bbfbc93fedf7c81bbd4cd20f43ca06db841dc69650e,data/raw/siena-scalp-eeg-1.0.0/PN10/PN10-2.edf
+PN10,PN10-3.edf,8713.0,01.01.17,13.33.18,True,1,1,,validated,19,2,eeb82231519a8d57a5d28d8a68198da9c42feb777215f9584d8c1d11c3242bf0,data/raw/siena-scalp-eeg-1.0.0/PN10/PN10-3.edf
+PN10,PN10-4.5.6.edf,16648.0,01.01.17,12.11.21,True,3,3,,validated,19,2,74c1cb8966972f1451fc967de293b6b977304fc70f4157f95669f77326d3fd60,data/raw/siena-scalp-eeg-1.0.0/PN10/PN10-4.5.6.edf
+PN10,PN10-7.8.9.edf,14955.0,01.01.17,16.49.25,True,3,3,,validated,19,2,324c7d5ed294a03f86f89707de83b7647baedca4d78aef800452d5ed075e9ac4,data/raw/siena-scalp-eeg-1.0.0/PN10/PN10-7.8.9.edf
+PN12,PN12-1.2.edf,9774.0,01.01.17,15.51.31,True,2,2,,validated,29,2,06c377b029a0611790638d848ee097396c2a7f0254eb3cbf15ddcfe55e423eb4,data/raw/siena-scalp-eeg-1.0.0/PN12/PN12-1.2.edf
+PN12,PN12-3.edf,1989.0,01.01.17,08.42.35,True,1,1,,validated,29,2,5aa5079487cc5fc41c9a42f24b18c6f795e7c1afffb6da61d920b5568fb1b94d,data/raw/siena-scalp-eeg-1.0.0/PN12/PN12-3.edf
+PN12,PN12-4.edf,10194.0,01.01.17,15.59.19,True,1,1,,validated,29,2,079bbebafbf71ffb3528e721fbad980c374a27266fa49f27c0a86c38fefe40a0,data/raw/siena-scalp-eeg-1.0.0/PN12/PN12-4.edf
+PN14,PN14-1.edf,7868.0,01.01.17,11.44.58,True,1,1,,validated,29,2,3fc1ad7243c5a372eef102b9d0f6713d8f6e32a4916a76e827c449a67796c6a9,data/raw/siena-scalp-eeg-1.0.0/PN14/PN14-1.edf
+PN14,PN14-2.edf,9165.0,01.01.17,15.50.13,True,1,1,,validated,29,2,468830682fed535bb379e0f1887bbcab3eb0238c6a5b4b3e1a7157e5b8b307c1,data/raw/siena-scalp-eeg-1.0.0/PN14/PN14-2.edf
+PN14,PN14-3.edf,41995.0,01.01.17,19.17.45,True,1,1,,validated,29,2,d8bdee5be3f5c56b9245095e26184378af65c9737316f25329c69b89e6ea4ce3,data/raw/siena-scalp-eeg-1.0.0/PN14/PN14-3.edf
+PN14,PN14-4.edf,14642.0,01.01.17,14.18.30,True,1,1,,validated,29,2,12fb27fde4146fab02243808c6f9ecbfc91f9fe7c5432f2c424d2caeb9aeb298,data/raw/siena-scalp-eeg-1.0.0/PN14/PN14-4.edf

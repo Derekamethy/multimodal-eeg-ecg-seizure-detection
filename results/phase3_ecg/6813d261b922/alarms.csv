@@ -1,0 +1,12 @@
+patient,model,test_file,declaration_s,end_s,termination_reason,match_status,event_id
+PN00,C1_RF,PN00-2.edf,1285,1315,two_below,false,
+PN06,C1_RF,PN06-1.edf,6005,6015,two_below,false,
+PN06,C1_RF,PN06-3.edf,4615,4625,two_below,false,
+PN06,C1_RF,PN06-3.edf,4975,4995,two_below,false,
+PN06,C1_RF,PN06-3.edf,5565,5585,two_below,false,
+PN12,C1_RF,PN12-1.2.edf,1355,1360,unavailable,matched,PN12-1
+PN12,C1_RF,PN12-1.2.edf,9605,9625,unavailable,matched,PN12-2
+PN12,C1_RF,PN12-3.edf,820,830,unavailable,matched,PN12-3
+PN12,C1_RF,PN12-4.edf,5290,5310,two_below,false,
+PN12,C1_RF,PN12-4.edf,9550,9565,two_below,false,
+PN12,C1_RF,PN12-4.edf,9850,9875,two_below,matched,PN12-4

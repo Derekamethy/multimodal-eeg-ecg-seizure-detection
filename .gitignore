@@ -1,0 +1,45 @@
+# Obtain source files directly from PhysioNet; never stage raw recordings.
+/data/raw/
+*.[eE][dD][fF]
+*.part
+
+# Local environments and interpreter/test/build caches.
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local configuration, credentials, editors and operating-system files.
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+*.log
+
+# Unreferenced historical header audits remain local, not current results.
+/edf_header_audit.csv
+/metadata/edf_audit.csv
+# Keep the 13 historical files required by the frozen Phase 2 preservation check.
+/results/features/*
+!/results/features/PN00_features.csv
+/results/benchmarks/*
+!/results/benchmarks/PN00_full_fold_metrics.csv
+!/results/benchmarks/PN00_full_oof_predictions.csv
+!/results/benchmarks/PN00_full_pooled_metrics.csv
+
+# Keep canonical metadata and all frozen Phase 2–4 artifacts and sidecars.

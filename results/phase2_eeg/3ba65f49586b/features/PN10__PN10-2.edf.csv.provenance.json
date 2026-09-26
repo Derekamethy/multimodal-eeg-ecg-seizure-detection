@@ -1,0 +1,21 @@
+{
+  "metadata_identity": "91b7c18e669fd92ef785c9692b15635c766db42d584bb1a24300dd34d64160b3",
+  "kind": "phase2_eeg_features",
+  "config": {
+    "patient": "PN10",
+    "file_name": "PN10-2.edf"
+  },
+  "dependencies": {
+    "run_phase2_eeg.py": "7c866b9b14c1a80d6938467b605df2bbe09143fece687b7cb6d65f704b8925db",
+    "src/multimodal_seizure/windows.py": "0b3525e76b3d587bacddf03716ab507f4ec5591c6797c66ec88e83ccc359a837",
+    "src/multimodal_seizure/eeg.py": "c81d54f8b915b611e407e79a9d38df85e581f8524236a71e979567044843a06f",
+    "src/multimodal_seizure/data.py": "af4a688d80db84e873cec25126161f4837fe06dd57d4990c4f345ef71b3bcfba",
+    "src/multimodal_seizure/alarms.py": "457152c594bf686946456d05dd84c9bd79cfda0549ce955d01a7ebf1679a8e3b",
+    "src/multimodal_seizure/metrics.py": "9e688c6a64f89a09abf19c797b241b94e4d0088ef76401ad1495223aa1ed543b",
+    "src/multimodal_seizure/baseline.py": "12e5689da54b2edd0ab623faf96c0d6eb47ceb0ce82f0087f6629cde3219c9af",
+    "src/multimodal_seizure/provenance.py": "beca839cc87465002696e6afcf68eafb8fc346c7e6957f3b1e9c24a1e56f7809",
+    "results/phase2_eeg/3ba65f49586b/config.json": "dc7b8b7ca0c88abcc8e1d2a387dc335bb559ef673c9c309094d81a5dc16e40f3"
+  },
+  "cache_identity": "d98618e5de2e7607202a03cd1448a85d400747562c67a34532ab923cbc7a3be9",
+  "artifact_sha256": "a1c206dc7f9770a170389553cecb63375f1d6deaa4f76e35faa0b6d2c820f448"
+}

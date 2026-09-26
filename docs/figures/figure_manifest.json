@@ -1,0 +1,43 @@
+{
+  "purpose": "Presentation figures only; no fitting, model imports or frozen-file writes",
+  "experiment_identities": {
+    "eeg": "3ba65f49586b8c13e4e497ba0aa2e160bfed9d1cdd64434bb72a131f72a47b21",
+    "ecg": "6813d261b922f82721d27bccdfa452135a56c4d47c3afe5f7bc72506a0c4737e",
+    "fusion": "ae451eb4142626cd35daa0e4309a64ece2f56fd43b242c0a6b5b1e55cfb9ebea"
+  },
+  "generator_sha256": "5c1449da23a976556878092c51466b404d22982e2660d21f9356529c0d92a071",
+  "python": "3.11.9",
+  "packages": {
+    "matplotlib": "3.10.8",
+    "numpy": "2.4.6",
+    "pillow": "12.3.0",
+    "contourpy": "1.3.3",
+    "cycler": "0.12.1",
+    "fonttools": "4.65.0",
+    "kiwisolver": "1.5.1",
+    "pyparsing": "3.3.3"
+  },
+  "sources": {
+    "results/phase2_eeg/3ba65f49586b/pooled_metrics.csv": "7b9f023c03d633e86525e3b998f1256256ca3e452b3858e70cf142b460aced75",
+    "results/phase3_ecg/6813d261b922/pooled_metrics.csv": "d9a0d3e623cd5ea11bcd29b7f62087a011da38032f592e6165270ec0f0e451d2",
+    "results/phase4_fusion/ae451eb41426/pooled_metrics.csv": "1206e537e00c567dd1f58d108cb497aba5a98ba763bbc775abff3ba6efdc7afc",
+    "results/phase4_fusion/ae451eb41426/event_comparison.csv": "7e2f5fc33b05e94c7fb3166b24c58bcb1ab1c50415d62a1d3d769f81d4e2657d",
+    "results/phase4_fusion/ae451eb41426/selected_parameters.csv": "99f9b27427e5189b493d074d916c0093f10f9341e7de5be43577e6e52d027475",
+    "results/phase2_eeg/3ba65f49586b/patient_metrics.csv": "1c122cb264d8666c46b4e701cb1542dbc1091bb5799d0e843ab4b0adbba7084a",
+    "results/phase3_ecg/6813d261b922/patient_metrics.csv": "c78cb64c463a8537815badfa09da8d7be1bd57835cd03db8e7b930f2e6ca27f4",
+    "results/phase4_fusion/ae451eb41426/patient_metrics.csv": "4ede1e44f17f4090699708afd7d686068a5a4b57cd23a8e2b10397ef8e4fe2c3",
+    "results/phase4_fusion/ae451eb41426/scores/PN06__PN06-1.edf.csv": "1c3890519d777f41c96f458a8c5ee586fe237a7f4669659769282e0bc7f942c8",
+    "results/phase4_fusion/ae451eb41426/event_matches.csv": "f0a845c32237c44058aa2a4b6640b3f876add23715537efcd6e3df67f5c148df",
+    "results/phase3_ecg/6813d261b922/fold_metrics.csv": "7d35256c9c6a7385a84dd6fddb83973b2838ccf6089d48ed815af8eacba8e041"
+  },
+  "outputs": {
+    "docs/figures/02_patient_sensitivity.png": "f67ab9d42d09d519db9a7572dea15268503a6b47eddf01d8b965cadb8fd3ffe4",
+    "docs/figures/02_patient_sensitivity.svg": "781fd3eaef63f41f18f8ab13384b67ef8de2725f1679b84015e231e88906cdb3",
+    "docs/figures/03_patient_far.png": "6a522dae8e3c3f5eb7815d19e591b25f05973dfa8fe38b2f2cb8f32ad425d89c",
+    "docs/figures/03_patient_far.svg": "ad06b6e6f57e6957f561af9aba9004fb11900e653215baaa72b365baa2a07274",
+    "docs/figures/04_event_fate.png": "84e2c2c6dbd3a5a64c19b9b11adb5b80440576c3bde34a0ca0be36b65c63498d",
+    "docs/figures/04_event_fate.svg": "ef073dc3b77cf64f0f488e1f493c3387d3881f774528acb942e00274376fea85",
+    "docs/figures/05_pn06_1_failure.png": "c135575dc98828ca84bd9a22c16d3890895b74901515e8ecc1499863e1539381",
+    "docs/figures/05_pn06_1_failure.svg": "f77e97f667c95b12f42160cf35d57fcb5915a79e2b33ad7788a24c3ee9a8a717"
+  }
+}

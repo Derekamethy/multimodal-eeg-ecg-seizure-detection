@@ -1,0 +1,27 @@
+{
+  "metadata_identity": "91b7c18e669fd92ef785c9692b15635c766db42d584bb1a24300dd34d64160b3",
+  "kind": "phase2_continuous_oof",
+  "config": {
+    "patient": "PN10",
+    "model": "E1_RF"
+  },
+  "dependencies": {
+    "run_phase2_eeg.py": "7c866b9b14c1a80d6938467b605df2bbe09143fece687b7cb6d65f704b8925db",
+    "src/multimodal_seizure/windows.py": "0b3525e76b3d587bacddf03716ab507f4ec5591c6797c66ec88e83ccc359a837",
+    "src/multimodal_seizure/eeg.py": "c81d54f8b915b611e407e79a9d38df85e581f8524236a71e979567044843a06f",
+    "src/multimodal_seizure/data.py": "af4a688d80db84e873cec25126161f4837fe06dd57d4990c4f345ef71b3bcfba",
+    "src/multimodal_seizure/alarms.py": "457152c594bf686946456d05dd84c9bd79cfda0549ce955d01a7ebf1679a8e3b",
+    "src/multimodal_seizure/metrics.py": "9e688c6a64f89a09abf19c797b241b94e4d0088ef76401ad1495223aa1ed543b",
+    "src/multimodal_seizure/baseline.py": "12e5689da54b2edd0ab623faf96c0d6eb47ceb0ce82f0087f6629cde3219c9af",
+    "src/multimodal_seizure/provenance.py": "beca839cc87465002696e6afcf68eafb8fc346c7e6957f3b1e9c24a1e56f7809",
+    "results/phase2_eeg/3ba65f49586b/config.json": "dc7b8b7ca0c88abcc8e1d2a387dc335bb559ef673c9c309094d81a5dc16e40f3",
+    "results/phase2_eeg/3ba65f49586b/features/PN10__PN10-1.edf.csv": "c97c9669283f9fbacee25a8bbe439d8c4815c323f0cd5e97911e352b87f721cf",
+    "results/phase2_eeg/3ba65f49586b/features/PN10__PN10-10.edf.csv": "29f0fa46f138fc357a664100f8e32e2f24892e642fecab54f238f568638e05c6",
+    "results/phase2_eeg/3ba65f49586b/features/PN10__PN10-2.edf.csv": "a1c206dc7f9770a170389553cecb63375f1d6deaa4f76e35faa0b6d2c820f448",
+    "results/phase2_eeg/3ba65f49586b/features/PN10__PN10-3.edf.csv": "af4a685773ecf041ba106bdcd0d3610e5fa60eba6fcbfe2657b439fc657e9ad7",
+    "results/phase2_eeg/3ba65f49586b/features/PN10__PN10-4.5.6.edf.csv": "0074fe0a5981480c75c8cb7e1b4afbd4b5295661b2d9e565c5b0f83f9b2a66fd",
+    "results/phase2_eeg/3ba65f49586b/features/PN10__PN10-7.8.9.edf.csv": "167fec1db8d43c85efef42445f4359ea348f68b0233f7cf45efda51dd8d3bc61"
+  },
+  "cache_identity": "c77f569cd76a8302f5da27c14a6550a25caf7037aa6c474e21f4a3b1ce8c4c0b",
+  "artifact_sha256": "729f5be5165431830d21219dbb63e9945b4e40693acc2858195d0f1aea414c8d"
+}

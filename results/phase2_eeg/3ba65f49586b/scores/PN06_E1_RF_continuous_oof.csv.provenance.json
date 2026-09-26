@@ -1,0 +1,26 @@
+{
+  "metadata_identity": "91b7c18e669fd92ef785c9692b15635c766db42d584bb1a24300dd34d64160b3",
+  "kind": "phase2_continuous_oof",
+  "config": {
+    "patient": "PN06",
+    "model": "E1_RF"
+  },
+  "dependencies": {
+    "run_phase2_eeg.py": "7c866b9b14c1a80d6938467b605df2bbe09143fece687b7cb6d65f704b8925db",
+    "src/multimodal_seizure/windows.py": "0b3525e76b3d587bacddf03716ab507f4ec5591c6797c66ec88e83ccc359a837",
+    "src/multimodal_seizure/eeg.py": "c81d54f8b915b611e407e79a9d38df85e581f8524236a71e979567044843a06f",
+    "src/multimodal_seizure/data.py": "af4a688d80db84e873cec25126161f4837fe06dd57d4990c4f345ef71b3bcfba",
+    "src/multimodal_seizure/alarms.py": "457152c594bf686946456d05dd84c9bd79cfda0549ce955d01a7ebf1679a8e3b",
+    "src/multimodal_seizure/metrics.py": "9e688c6a64f89a09abf19c797b241b94e4d0088ef76401ad1495223aa1ed543b",
+    "src/multimodal_seizure/baseline.py": "12e5689da54b2edd0ab623faf96c0d6eb47ceb0ce82f0087f6629cde3219c9af",
+    "src/multimodal_seizure/provenance.py": "beca839cc87465002696e6afcf68eafb8fc346c7e6957f3b1e9c24a1e56f7809",
+    "results/phase2_eeg/3ba65f49586b/config.json": "dc7b8b7ca0c88abcc8e1d2a387dc335bb559ef673c9c309094d81a5dc16e40f3",
+    "results/phase2_eeg/3ba65f49586b/features/PN06__PN06-1.edf.csv": "d2834caf2c413a43d94801c759b16503d9bd21a37107ae97c7dca20b0b2ed37f",
+    "results/phase2_eeg/3ba65f49586b/features/PN06__PN06-2.edf.csv": "6d2be255957a41bdf4567d09e32e97f00bce783980aedcad9c2bd638812bcbdd",
+    "results/phase2_eeg/3ba65f49586b/features/PN06__PN06-3.edf.csv": "c416f6ea7a399c46383e599139b3008159b7aed23d52f35bb5e3e106ef7a1d91",
+    "results/phase2_eeg/3ba65f49586b/features/PN06__PN06-4.edf.csv": "c4650003e3febbf8a652ce4d08173f8e9b1b655ba1f496e7cf81761de0a44753",
+    "results/phase2_eeg/3ba65f49586b/features/PN06__PN06-5.edf.csv": "d6c44180af34771aeb3b144aa62412c70fe2ff7d3925917460905484ddb8c43a"
+  },
+  "cache_identity": "5f1f075d0dbd00362e494f7d8b9406bc4fa108932584239da845bf4acc621cd3",
+  "artifact_sha256": "2e84d93ca6074ece5f6fbdc4d0f465516eba33d2d98be207cdddfa4c0eadc558"
+}

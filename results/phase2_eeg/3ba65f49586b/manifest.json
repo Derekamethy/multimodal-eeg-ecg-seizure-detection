@@ -1,0 +1,212 @@
+{
+  "experiment_identity": "3ba65f49586b8c13e4e497ba0aa2e160bfed9d1cdd64434bb72a131f72a47b21",
+  "status": "complete",
+  "expected_outer_folds": 22,
+  "model_folds": 44,
+  "calibration_limited_folds": [],
+  "failed_folds": [],
+  "raw_sources": "31/31 verified before Phase 2",
+  "scope": "EEG only",
+  "artifacts": [
+    {
+      "path": "results/phase2_eeg/3ba65f49586b/config.json",
+      "sha256": "dc7b8b7ca0c88abcc8e1d2a387dc335bb559ef673c9c309094d81a5dc16e40f3",
+      "sidecar": "results/phase2_eeg/3ba65f49586b/config.json.provenance.json"
+    },
+    {
+      "path": "results/phase2_eeg/3ba65f49586b/features/PN00__PN00-1.edf.csv",
+      "sha256": "89efa6d9cde941f80585a6a000ad78bdb206432243a40b8ac01b350e566e99ef",
+      "sidecar": "results/phase2_eeg/3ba65f49586b/features/PN00__PN00-1.edf.csv.provenance.json"
+    },
+    {
+      "path": "results/phase2_eeg/3ba65f49586b/features/PN00__PN00-2.edf.csv",
+      "sha256": "b46782a2f75419d5e1da20726e17e0a224b2157cc842142025b6048f95bf1314",
+      "sidecar": "results/phase2_eeg/3ba65f49586b/features/PN00__PN00-2.edf.csv.provenance.json"
+    },
+    {
+      "path": "results/phase2_eeg/3ba65f49586b/features/PN00__PN00-4.edf.csv",
+      "sha256": "ca0bcab5162fb97bd8d7f8c74010fb48cfad12476001cdfc72d0d7a108201bb1",
+      "sidecar": "results/phase2_eeg/3ba65f49586b/features/PN00__PN00-4.edf.csv.provenance.json"
+    },
+    {
+      "path": "results/phase2_eeg/3ba65f49586b/features/PN00__PN00-5.edf.csv",
+      "sha256": "e42e90b534e16ed643c21b6a28f2a20e641d1b1b22f144290b049702bf0480dd",
+      "sidecar": "results/phase2_eeg/3ba65f49586b/features/PN00__PN00-5.edf.csv.provenance.json"
+    },
+    {
+      "path": "results/phase2_eeg/3ba65f49586b/features/PN06__PN06-1.edf.csv",
+      "sha256": "d2834caf2c413a43d94801c759b16503d9bd21a37107ae97c7dca20b0b2ed37f",
+      "sidecar": "results/phase2_eeg/3ba65f49586b/features/PN06__PN06-1.edf.csv.provenance.json"
+    },
+    {
+      "path": "results/phase2_eeg/3ba65f49586b/features/PN06__PN06-2.edf.csv",
+      "sha256": "6d2be255957a41bdf4567d09e32e97f00bce783980aedcad9c2bd638812bcbdd",
+      "sidecar": "results/phase2_eeg/3ba65f49586b/features/PN06__PN06-2.edf.csv.provenance.json"
+    },
+    {
+      "path": "results/phase2_eeg/3ba65f49586b/features/PN06__PN06-3.edf.csv",
+      "sha256": "c416f6ea7a399c46383e599139b3008159b7aed23d52f35bb5e3e106ef7a1d91",
+      "sidecar": "results/phase2_eeg/3ba65f49586b/features/PN06__PN06-3.edf.csv.provenance.json"
+    },
+    {
+      "path": "results/phase2_eeg/3ba65f49586b/features/PN06__PN06-4.edf.csv",
+      "sha256": "c4650003e3febbf8a652ce4d08173f8e9b1b655ba1f496e7cf81761de0a44753",
+      "sidecar": "results/phase2_eeg/3ba65f49586b/features/PN06__PN06-4.edf.csv.provenance.json"
+    },
+    {
+      "path": "results/phase2_eeg/3ba65f49586b/features/PN06__PN06-5.edf.csv",
+      "sha256": "d6c44180af34771aeb3b144aa62412c70fe2ff7d3925917460905484ddb8c43a",
+      "sidecar": "results/phase2_eeg/3ba65f49586b/features/PN06__PN06-5.edf.csv.provenance.json"
+    },
+    {
+      "path": "results/phase2_eeg/3ba65f49586b/features/PN10__PN10-1.edf.csv",
+      "sha256": "c97c9669283f9fbacee25a8bbe439d8c4815c323f0cd5e97911e352b87f721cf",
+      "sidecar": "results/phase2_eeg/3ba65f49586b/features/PN10__PN10-1.edf.csv.provenance.json"
+    },
+    {
+      "path": "results/phase2_eeg/3ba65f49586b/features/PN10__PN10-10.edf.csv",
+      "sha256": "29f0fa46f138fc357a664100f8e32e2f24892e642fecab54f238f568638e05c6",
+      "sidecar": "results/phase2_eeg/3ba65f49586b/features/PN10__PN10-10.edf.csv.provenance.json"
+    },
+    {
+      "path": "results/phase2_eeg/3ba65f49586b/features/PN10__PN10-2.edf.csv",
+      "sha256": "a1c206dc7f9770a170389553cecb63375f1d6deaa4f76e35faa0b6d2c820f448",
+      "sidecar": "results/phase2_eeg/3ba65f49586b/features/PN10__PN10-2.edf.csv.provenance.json"
+    },
+    {
+      "path": "results/phase2_eeg/3ba65f49586b/features/PN10__PN10-3.edf.csv",
+      "sha256": "af4a685773ecf041ba106bdcd0d3610e5fa60eba6fcbfe2657b439fc657e9ad7",
+      "sidecar": "results/phase2_eeg/3ba65f49586b/features/PN10__PN10-3.edf.csv.provenance.json"
+    },
+    {
+      "path": "results/phase2_eeg/3ba65f49586b/features/PN10__PN10-4.5.6.edf.csv",
+      "sha256": "0074fe0a5981480c75c8cb7e1b4afbd4b5295661b2d9e565c5b0f83f9b2a66fd",
+      "sidecar": "results/phase2_eeg/3ba65f49586b/features/PN10__PN10-4.5.6.edf.csv.provenance.json"
+    },
+    {
+      "path": "results/phase2_eeg/3ba65f49586b/features/PN10__PN10-7.8.9.edf.csv",
+      "sha256": "167fec1db8d43c85efef42445f4359ea348f68b0233f7cf45efda51dd8d3bc61",
+      "sidecar": "results/phase2_eeg/3ba65f49586b/features/PN10__PN10-7.8.9.edf.csv.provenance.json"
+    },
+    {
+      "path": "results/phase2_eeg/3ba65f49586b/features/PN12__PN12-1.2.edf.csv",
+      "sha256": "9cd07c1edec18ff78c38d1d9ace8400e99282abad99d59ca052ab0bd0f12f880",
+      "sidecar": "results/phase2_eeg/3ba65f49586b/features/PN12__PN12-1.2.edf.csv.provenance.json"
+    },
+    {
+      "path": "results/phase2_eeg/3ba65f49586b/features/PN12__PN12-3.edf.csv",
+      "sha256": "525200460dc0e4845e70a9c0aa28ba7cd6e325ecf04e657c1b712b2c98d920bb",
+      "sidecar": "results/phase2_eeg/3ba65f49586b/features/PN12__PN12-3.edf.csv.provenance.json"
+    },
+    {
+      "path": "results/phase2_eeg/3ba65f49586b/features/PN12__PN12-4.edf.csv",
+      "sha256": "aff7e494b7269cb7049b783c5f35b53f8023b421469c4df8b4c0b1c6d0e2c621",
+      "sidecar": "results/phase2_eeg/3ba65f49586b/features/PN12__PN12-4.edf.csv.provenance.json"
+    },
+    {
+      "path": "results/phase2_eeg/3ba65f49586b/features/PN14__PN14-1.edf.csv",
+      "sha256": "a64860708b61d2259decdee9764835cce9936661f863f69aba4ff51cff36cf5e",
+      "sidecar": "results/phase2_eeg/3ba65f49586b/features/PN14__PN14-1.edf.csv.provenance.json"
+    },
+    {
+      "path": "results/phase2_eeg/3ba65f49586b/features/PN14__PN14-2.edf.csv",
+      "sha256": "67707f00aa845aa712a27e88acb5cd585d6c4a300fd22ad583113b148a0542b4",
+      "sidecar": "results/phase2_eeg/3ba65f49586b/features/PN14__PN14-2.edf.csv.provenance.json"
+    },
+    {
+      "path": "results/phase2_eeg/3ba65f49586b/features/PN14__PN14-3.edf.csv",
+      "sha256": "f673cabea52869751558f572674f5ffffb5305fd1a1ee628a3851254e61fe809",
+      "sidecar": "results/phase2_eeg/3ba65f49586b/features/PN14__PN14-3.edf.csv.provenance.json"
+    },
+    {
+      "path": "results/phase2_eeg/3ba65f49586b/features/PN14__PN14-4.edf.csv",
+      "sha256": "bf4af743ce3c5d2123db945f249b830fc740745b5bb109beac8ccd703393b896",
+      "sidecar": "results/phase2_eeg/3ba65f49586b/features/PN14__PN14-4.edf.csv.provenance.json"
+    },
+    {
+      "path": "results/phase2_eeg/3ba65f49586b/scores/PN00_E0_LR_continuous_oof.csv",
+      "sha256": "146c1f5bf270e251a5ea8c98a2821decbce094241c7d1927a115d41d916623d2",
+      "sidecar": "results/phase2_eeg/3ba65f49586b/scores/PN00_E0_LR_continuous_oof.csv.provenance.json"
+    },
+    {
+      "path": "results/phase2_eeg/3ba65f49586b/scores/PN00_E1_RF_continuous_oof.csv",
+      "sha256": "57db09bdd2de0cdbd751cfcb46a39e10e428e6f06eeeac47862810254dde2167",
+      "sidecar": "results/phase2_eeg/3ba65f49586b/scores/PN00_E1_RF_continuous_oof.csv.provenance.json"
+    },
+    {
+      "path": "results/phase2_eeg/3ba65f49586b/scores/PN06_E0_LR_continuous_oof.csv",
+      "sha256": "6785217a6404c87f0b1a01319da724d57ce393dea8db1180d17cb1c62ca76a54",
+      "sidecar": "results/phase2_eeg/3ba65f49586b/scores/PN06_E0_LR_continuous_oof.csv.provenance.json"
+    },
+    {
+      "path": "results/phase2_eeg/3ba65f49586b/scores/PN06_E1_RF_continuous_oof.csv",
+      "sha256": "2e84d93ca6074ece5f6fbdc4d0f465516eba33d2d98be207cdddfa4c0eadc558",
+      "sidecar": "results/phase2_eeg/3ba65f49586b/scores/PN06_E1_RF_continuous_oof.csv.provenance.json"
+    },
+    {
+      "path": "results/phase2_eeg/3ba65f49586b/scores/PN10_E0_LR_continuous_oof.csv",
+      "sha256": "eec95828c134004a7f38685be0a8dacf1ae4955a627e0724679a87c4959b2789",
+      "sidecar": "results/phase2_eeg/3ba65f49586b/scores/PN10_E0_LR_continuous_oof.csv.provenance.json"
+    },
+    {
+      "path": "results/phase2_eeg/3ba65f49586b/scores/PN10_E1_RF_continuous_oof.csv",
+      "sha256": "729f5be5165431830d21219dbb63e9945b4e40693acc2858195d0f1aea414c8d",
+      "sidecar": "results/phase2_eeg/3ba65f49586b/scores/PN10_E1_RF_continuous_oof.csv.provenance.json"
+    },
+    {
+      "path": "results/phase2_eeg/3ba65f49586b/scores/PN12_E0_LR_continuous_oof.csv",
+      "sha256": "0f114fe39bdfbdfdf442452237f2ac071b81d2fde2f45825b468036b8e88f5af",
+      "sidecar": "results/phase2_eeg/3ba65f49586b/scores/PN12_E0_LR_continuous_oof.csv.provenance.json"
+    },
+    {
+      "path": "results/phase2_eeg/3ba65f49586b/scores/PN12_E1_RF_continuous_oof.csv",
+      "sha256": "e33a6a0cd9bb4c662fa4f4e33490f0baf6fe09c6067b1860c3e9e15595e9e976",
+      "sidecar": "results/phase2_eeg/3ba65f49586b/scores/PN12_E1_RF_continuous_oof.csv.provenance.json"
+    },
+    {
+      "path": "results/phase2_eeg/3ba65f49586b/scores/PN14_E0_LR_continuous_oof.csv",
+      "sha256": "f307259f74d82f02e922a376039af8f113e5cce20d3058793d9e4db1fa5e6269",
+      "sidecar": "results/phase2_eeg/3ba65f49586b/scores/PN14_E0_LR_continuous_oof.csv.provenance.json"
+    },
+    {
+      "path": "results/phase2_eeg/3ba65f49586b/scores/PN14_E1_RF_continuous_oof.csv",
+      "sha256": "990af26949036c0620d82c04a3f8053d71750560c27a4d772c5877431db3698e",
+      "sidecar": "results/phase2_eeg/3ba65f49586b/scores/PN14_E1_RF_continuous_oof.csv.provenance.json"
+    },
+    {
+      "path": "results/phase2_eeg/3ba65f49586b/threshold_selection.csv",
+      "sha256": "b8de613f98f6b665866d99fb74f873c92a7c815ee4f2b107a78f9f8a6b12385a",
+      "sidecar": "results/phase2_eeg/3ba65f49586b/threshold_selection.csv.provenance.json"
+    },
+    {
+      "path": "results/phase2_eeg/3ba65f49586b/fold_metrics.csv",
+      "sha256": "ff25a96c386b9d8d6244530a251c831df8ee2218f7ae7362fad9d0ef593cd77f",
+      "sidecar": "results/phase2_eeg/3ba65f49586b/fold_metrics.csv.provenance.json"
+    },
+    {
+      "path": "results/phase2_eeg/3ba65f49586b/patient_metrics.csv",
+      "sha256": "1c122cb264d8666c46b4e701cb1542dbc1091bb5799d0e843ab4b0adbba7084a",
+      "sidecar": "results/phase2_eeg/3ba65f49586b/patient_metrics.csv.provenance.json"
+    },
+    {
+      "path": "results/phase2_eeg/3ba65f49586b/pooled_metrics.csv",
+      "sha256": "7b9f023c03d633e86525e3b998f1256256ca3e452b3858e70cf142b460aced75",
+      "sidecar": "results/phase2_eeg/3ba65f49586b/pooled_metrics.csv.provenance.json"
+    },
+    {
+      "path": "results/phase2_eeg/3ba65f49586b/alarms.csv",
+      "sha256": "aa399dcf8083f42ad2ff391f1912cd0be99517d42504aaef748ac6798c647e2a",
+      "sidecar": "results/phase2_eeg/3ba65f49586b/alarms.csv.provenance.json"
+    },
+    {
+      "path": "results/phase2_eeg/3ba65f49586b/event_matches.csv",
+      "sha256": "c03ccad51ef35f4998fba37e08bb2d555c07b57ff69a7f8ff8ba632a035ac007",
+      "sidecar": "results/phase2_eeg/3ba65f49586b/event_matches.csv.provenance.json"
+    },
+    {
+      "path": "results/phase2_eeg/3ba65f49586b/evaluation_exposure.csv",
+      "sha256": "1c1de2c758c51d2f8616037c5fa40348a54eee4f3de59704999f4f5cc7d452c6",
+      "sidecar": "results/phase2_eeg/3ba65f49586b/evaluation_exposure.csv.provenance.json"
+    }
+  ]
+}

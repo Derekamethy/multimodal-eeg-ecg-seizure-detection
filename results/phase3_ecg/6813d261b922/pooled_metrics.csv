@@ -1,0 +1,3 @@
+events,detected,overlap_detected,false_declarations,duplicate_declarations,total_declarations,active_alarm_s,raw_s,startup_s,uncertain_s,other_unavailable_s,evaluable_s,sensitivity,overlap_sensitivity,far_per_h,missed,matched_declarations,delay_n,delay_median_s,delay_q25_s,delay_q75_s,delay_min_s,delay_max_s,warning_fraction,longest_alarm_s,window_n,window_positive,average_precision,roc_auc,model
+27,0,0,0,0,0,0,215678,1320,27,12109,202222,0,0,0,27,0,0,,,,,,0,0,40449,234,0.046548795837366867,0.64447196744846869,C0_LR
+27,4,4,7,0,11,185,215678,1320,27,12109,202222,0.14814814814814814,0.14814814814814814,0.12461552155551819,23,4,4,40.5,37.25,44.25,35,48,0.00091483617014963758,30,40449,234,0.066926715626132033,0.6603055584778823,C1_RF
