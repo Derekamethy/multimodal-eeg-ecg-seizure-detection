@@ -1,6 +1,10 @@
 # Final public-release repository audit
 
-Public-release audit: **2026-09-24**. Scientific closeout: 2026-09-23. Scope: actual Git candidate content, release hygiene and read-only verification. No new scientific experiment was performed.
+Original release-candidate audit: **2026-09-24**. Scientific closeout: 2026-09-23. Public GitHub state checked: **2026-09-26**. No new scientific experiment was performed.
+
+At the public-state check, `main` was at `4768f24f98798b002c74fd3080d3dce740037fa3` and the public tree contained **397 files**, including the MIT `LICENSE`, totaling **334,234,797 bytes** before Git compression. Local and remote HEAD agreed. [GitHub Actions run 36229248527](https://github.com/Derekamethy/multimodal-eeg-ecg-seizure-detection/actions/runs/36229248527) passed on that commit with **53 passed, 4 deselected in 13.67 s**.
+
+The staging inventory, 396-file counts and pre-staging checks below describe the original release candidate before the MIT license was added. They are retained as historical release evidence, not as the current GitHub inventory or pending work. Scientific results and frozen identities remain current.
 
 ## Git state and audit boundary
 
@@ -69,7 +73,7 @@ Native Git checks also exclude `.venv`, Python/pytest caches, IDE metadata, OS j
 
 `.gitattributes` remains `* -text`. Native `git check-attr` reports `text: unset` for all 337 protected paths, including CSV, JSON, sidecars, manifests and source. No mass normalization, destructive reset or history rewrite occurred. Staging must preserve the protected working-tree hashes and the hashes of all 336 public protected blobs.
 
-Nothing was deleted or moved in this pass. Project-cache deletion had been rejected by execution policy during the prior scientific closeout; caches remain local and ignored. No deletion retry or alternative bypass was attempted. A whole-directory archive bypassing Git exclusions is not the release candidate.
+Caches remain local and ignored. The published content follows the Git-tracked tree; a whole-directory archive can include files excluded from Git.
 
 ## Public-content and licensing audit
 
