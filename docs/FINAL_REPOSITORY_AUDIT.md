@@ -4,7 +4,7 @@ Public-release audit: **2026-09-24**. Scientific closeout: 2026-09-23. Scope: ac
 
 ## Git state and audit boundary
 
-The project initially had no Git metadata. This pass initialized the actual project with `git init -b codex/public-release`. It is a fresh local repository with an unborn branch, no commits and no remote. Nothing has been committed or pushed.
+The project was initialized as a real Git repository, finalized on branch `main`, committed, and pushed to the public GitHub repository `Derekamethy/multimodal-eeg-ecg-seizure-detection`. Release baseline commit: `5b1b3cdec968b7eb4b59cac21ff3869d130cbe54`.
 
 Before any staging, native `git status --short`, `git status --ignored`, `git ls-files`, branch/remote/history checks and `git add --dry-run .` were saved outside the repository with a SHA-256 baseline of 337 protected files. The initial index was empty. Git identified **396 public candidate files** and **14,450 ignored files**; ignored counts enumerate individual paths, including the local environment and caches.
 
@@ -77,7 +77,7 @@ Conservative scans covered all Git-visible text for likely credentials, private 
 
 All public utilities resolve project-relative paths; none requires one developer's absolute home directory. The six utility path fixes from the earlier closeout remain unchanged, and no frozen producer was edited.
 
-Source data must be obtained from [PhysioNet Siena v1.0.0](https://physionet.org/content/siena-scalp-eeg/1.0.0/), whose dataset files use [CC BY 4.0](https://physionet.org/content/siena-scalp-eeg/view-license/1.0.0/). Raw EDFs, annotations and the downloaded dataset license remain excluded from this repository. Dataset licensing does not license project software. **No project software LICENSE exists; none was selected or invented.** Licensing remains the owner's decision.
+Source data must be obtained from [PhysioNet Siena v1.0.0](https://physionet.org/content/siena-scalp-eeg/1.0.0/), whose dataset files use [CC BY 4.0](https://physionet.org/content/siena-scalp-eeg/view-license/1.0.0/). Raw EDFs, annotations and the downloaded dataset license remain excluded from this repository. Dataset licensing does not license project software. The repository now uses the **MIT License** for project source code; Siena/PhysioNet data remain governed by their original dataset license and are not redistributed here.
 
 ## Size and GitHub suitability
 
@@ -152,12 +152,12 @@ Lines above form one shell command, as in the workflow's folded YAML scalar.
 
 Both test runs use the accepted local interpreter with bytecode writes disabled. This verifies clean content, not a fresh dependency installation. README links/layout and required source/dependency inclusion were checked in the release candidate. Final documentation-only edits are synchronized into the candidate before staging; the tested code is unchanged.
 
-**Hosted GitHub Actions has not run.** No remote or commit exists. Local Windows success is not hosted Linux success; clean cross-platform installation remains unobserved.
+**Hosted GitHub Actions passed.** A fresh Ubuntu 24.04 runner installed the frozen Python 3.11.9 dependency set successfully and completed the data-independent suite with **53 passed, 4 deselected in 13.55 s**. This provides independent hosted Linux validation of installation and the CI-selected test subset; full real-data replay still requires the local Siena source subset.
 
 ## Release gate and remaining actions
 
-**Verdict: READY FOR COMMIT.** The actual index contains **396 tracked/staged additions**, with **zero non-ignored untracked files** and **zero unstaged changes**; 14,450 individual files remain ignored. All 396 staged blobs match the audited candidate bytes. All 337 protected working-tree files remain unchanged, and all 336 public protected blobs match their baseline SHA-256 hashes. Canonical and Phase 2–4 identities are unchanged. No commit or remote exists, so this is not READY FOR PUSH or an already public release.
+**Verdict: PUBLIC RELEASE COMPLETE WITH DOCUMENTED LIMITATIONS.** The audited 396-file release was committed and pushed to `main`. GitHub Actions subsequently completed successfully in a fresh hosted Ubuntu environment. All previously verified scientific identities remain frozen; this documentation-only release update does not alter Phase 1–4 scientific artifacts.
 
 Scientific limitations remain five patients, 27 seizures, seizure-bearing source recordings, patient-specific retrospective analysis, recording/ECG heterogeneity, no manual beat ground truth, no clinical/streaming validation and no external untouched cohort. The finding is not a universal claim that ECG lacks utility.
 
-Remaining owner actions: decide software licensing, approve the first commit, create/connect the intended GitHub remote, authorize push and inspect hosted CI. Before a future push, inspect `git status`, `git log -1` and `git remote -v`. No commit or push is authorized in this closeout, and no further research is planned.
+Release actions are complete: software licensing is MIT, the first commit is on `main`, the GitHub remote is connected, the release is public, and hosted CI passed **53 tests with 4 deselected**. No further pilot research is planned; future changes should be documentation/packaging maintenance unless a separately scoped study is created.

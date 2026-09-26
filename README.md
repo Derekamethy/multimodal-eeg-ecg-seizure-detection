@@ -12,7 +12,7 @@ Overlapping-window classification scores can obscure missed seizures, repeated f
 
 The verified pilot comprises **5 patients, 22 eligible parent EDFs, 27 seizures and 59.91 h of eligible recordings**. The local source subset contains 23 EDFs and 28 source events; the entire PN00-3 parent is quarantined because its source seizure offset is outside the recording. All **31/31 targeted source files** pass SHA-256 verification. Canonical tables retain annotation disagreements and uncertainty rather than silently resolving them.
 
-Obtain the data from the original [Siena Scalp EEG Database v1.0.0 on PhysioNet](https://physionet.org/content/siena-scalp-eeg/1.0.0/). The source identifies its file license as [CC BY 4.0](https://physionet.org/content/siena-scalp-eeg/view-license/1.0.0/); retain the downloaded license and attribution. Raw recordings are not included in this repository or its presentation artifacts. Dataset licensing does not assign a software license to this project; no project-wide software license has been selected in this source snapshot.
+Obtain the data from the original [Siena Scalp EEG Database v1.0.0 on PhysioNet](https://physionet.org/content/siena-scalp-eeg/1.0.0/). The source identifies its file license as [CC BY 4.0](https://physionet.org/content/siena-scalp-eeg/view-license/1.0.0/); retain the downloaded license and attribution. Raw recordings are not included in this repository or its presentation artifacts. Dataset licensing is separate from this repository's software license. Project source code is released under the [MIT License](LICENSE); Siena/PhysioNet data remain governed by their original CC BY 4.0 terms.
 
 ## Pipeline
 
@@ -118,7 +118,7 @@ These verifiers require the local raw subset and **all** frozen dependencies, in
 
 Closeout verification: **74 passed, 0 failed**, including 14 fusion-specific cases. The full suite includes real-data tests and requires the local subset. Unit fixtures fit small synthetic models; no production model is trained during verification.
 
-The workflow in `.github/workflows/tests.yml` selects only synthetic and isolated-provenance tests. It downloads neither EDFs nor secrets. Hosted CI has not run from this local source snapshot; its exact selection passed locally in a source-only copy without raw data, metadata or results: **53 passed, 4 deselected**. Details are recorded in the final audit.
+The workflow in `.github/workflows/tests.yml` selects only synthetic and isolated-provenance tests and downloads neither EDFs nor secrets. Hosted GitHub Actions completed successfully on Ubuntu with Python 3.11.9: **53 passed, 4 deselected**. The same selection also passed locally in source-only copies without raw data.
 
 ### Rebuild presentation figures only
 
@@ -157,3 +157,7 @@ This is a five-patient, 27-seizure, patient-specific retrospective pilot, with n
 Current compact rhythm-based ECG features did not demonstrate reliable incremental value over the patient-specific EEG detector under strict whole-record continuous evaluation. Fixed and early fusion degraded performance, while protected adaptive late fusion avoided most degradation but produced no stable net improvement.
 
 Phase 1–4 remain frozen. No post-hoc tuning was performed after final evaluation.
+
+## License
+
+Project source code is licensed under the [MIT License](LICENSE). The Siena Scalp EEG dataset is not redistributed here and remains subject to its original PhysioNet/CC BY 4.0 terms.
